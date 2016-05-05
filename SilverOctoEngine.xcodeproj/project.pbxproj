@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2D4081D1CDB8B4C0022F559 /* silver-octo-engine.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D4081C1CDB8B4C0022F559 /* silver-octo-engine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2D408241CDB8B4C0022F559 /* silver-octo-engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D408191CDB8B4C0022F559 /* silver-octo-engine.framework */; };
+		A2D408241CDB8B4C0022F559 /* SilverOctoEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D408191CDB8B4C0022F559 /* SilverOctoEngine.framework */; };
 		A2D408291CDB8B4C0022F559 /* silver_octo_engineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D408281CDB8B4C0022F559 /* silver_octo_engineTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,10 +23,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2D408191CDB8B4C0022F559 /* silver-octo-engine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "silver-octo-engine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D408191CDB8B4C0022F559 /* SilverOctoEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SilverOctoEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D4081C1CDB8B4C0022F559 /* silver-octo-engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "silver-octo-engine.h"; sourceTree = "<group>"; };
 		A2D4081E1CDB8B4C0022F559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2D408231CDB8B4C0022F559 /* silver-octo-engineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "silver-octo-engineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D408231CDB8B4C0022F559 /* SilverOctoEngine.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverOctoEngine.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D408281CDB8B4C0022F559 /* silver_octo_engineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = silver_octo_engineTests.swift; sourceTree = "<group>"; };
 		A2D4082A1CDB8B4C0022F559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D408241CDB8B4C0022F559 /* silver-octo-engine.framework in Frameworks */,
+				A2D408241CDB8B4C0022F559 /* SilverOctoEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		A2D4081A1CDB8B4C0022F559 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2D408191CDB8B4C0022F559 /* silver-octo-engine.framework */,
-				A2D408231CDB8B4C0022F559 /* silver-octo-engineTests.xctest */,
+				A2D408191CDB8B4C0022F559 /* SilverOctoEngine.framework */,
+				A2D408231CDB8B4C0022F559 /* SilverOctoEngine.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A2D408181CDB8B4C0022F559 /* silver-octo-engine */ = {
+		A2D408181CDB8B4C0022F559 /* SilverOctoEngine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2D4082D1CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "silver-octo-engine" */;
+			buildConfigurationList = A2D4082D1CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "SilverOctoEngine" */;
 			buildPhases = (
 				A2D408141CDB8B4C0022F559 /* Sources */,
 				A2D408151CDB8B4C0022F559 /* Frameworks */,
@@ -113,14 +113,14 @@
 			);
 			dependencies = (
 			);
-			name = "silver-octo-engine";
+			name = SilverOctoEngine;
 			productName = "silver-octo-engine";
-			productReference = A2D408191CDB8B4C0022F559 /* silver-octo-engine.framework */;
+			productReference = A2D408191CDB8B4C0022F559 /* SilverOctoEngine.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A2D408221CDB8B4C0022F559 /* silver-octo-engineTests */ = {
+		A2D408221CDB8B4C0022F559 /* SilverOctoEngineTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2D408301CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "silver-octo-engineTests" */;
+			buildConfigurationList = A2D408301CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "SilverOctoEngineTests" */;
 			buildPhases = (
 				A2D4081F1CDB8B4C0022F559 /* Sources */,
 				A2D408201CDB8B4C0022F559 /* Frameworks */,
@@ -131,9 +131,9 @@
 			dependencies = (
 				A2D408261CDB8B4C0022F559 /* PBXTargetDependency */,
 			);
-			name = "silver-octo-engineTests";
+			name = SilverOctoEngineTests;
 			productName = "silver-octo-engineTests";
-			productReference = A2D408231CDB8B4C0022F559 /* silver-octo-engineTests.xctest */;
+			productReference = A2D408231CDB8B4C0022F559 /* SilverOctoEngine.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2D408131CDB8B4C0022F559 /* Build configuration list for PBXProject "silver-octo-engine" */;
+			buildConfigurationList = A2D408131CDB8B4C0022F559 /* Build configuration list for PBXProject "SilverOctoEngine" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2D408181CDB8B4C0022F559 /* silver-octo-engine */,
-				A2D408221CDB8B4C0022F559 /* silver-octo-engineTests */,
+				A2D408181CDB8B4C0022F559 /* SilverOctoEngine */,
+				A2D408221CDB8B4C0022F559 /* SilverOctoEngineTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +210,7 @@
 /* Begin PBXTargetDependency section */
 		A2D408261CDB8B4C0022F559 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2D408181CDB8B4C0022F559 /* silver-octo-engine */;
+			target = A2D408181CDB8B4C0022F559 /* SilverOctoEngine */;
 			targetProxy = A2D408251CDB8B4C0022F559 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -318,7 +318,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silveroctoengine.silver-octo-engine";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SilverOctoEngine;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -334,7 +334,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silveroctoengine.silver-octo-engine";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SilverOctoEngine;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -345,7 +345,7 @@
 				INFOPLIST_FILE = "silver-octo-engineTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silveroctoengine.silver-octo-engineTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SilverOctoEngine;
 			};
 			name = Debug;
 		};
@@ -355,14 +355,14 @@
 				INFOPLIST_FILE = "silver-octo-engineTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silveroctoengine.silver-octo-engineTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SilverOctoEngine;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2D408131CDB8B4C0022F559 /* Build configuration list for PBXProject "silver-octo-engine" */ = {
+		A2D408131CDB8B4C0022F559 /* Build configuration list for PBXProject "SilverOctoEngine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2D4082B1CDB8B4C0022F559 /* Debug */,
@@ -371,21 +371,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2D4082D1CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "silver-octo-engine" */ = {
+		A2D4082D1CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "SilverOctoEngine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2D4082E1CDB8B4C0022F559 /* Debug */,
 				A2D4082F1CDB8B4C0022F559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A2D408301CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "silver-octo-engineTests" */ = {
+		A2D408301CDB8B4C0022F559 /* Build configuration list for PBXNativeTarget "SilverOctoEngineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2D408311CDB8B4C0022F559 /* Debug */,
 				A2D408321CDB8B4C0022F559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
