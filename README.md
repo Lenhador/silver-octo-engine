@@ -1,2 +1,2 @@
-# -silver-octo-engine
+# silver-octo-engine
 Framework
